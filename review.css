@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('formbackground.png');
+  /* Replace 'background-image.jpg' with the path to your image file */
+  background-size: cover;
+  /* Cover the entire background */
+  background-repeat: no-repeat;
+  /* Do not repeat the background image */
+  background-attachment: fixed;
+  /* Keep the background image fixed while scrolling */
+  color: #333;
+  /* Default text color */
+  margin: 0;
+  padding: 0;
+}

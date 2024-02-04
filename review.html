@@ -1,0 +1,275 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Reviews</title>
+    <link rel="stylesheet" type="text/css" href="review.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          background-color: #f2f2f2;
+          color: #333;
+          margin: 0;
+          padding: 0;
+      }
+
+      section {
+          max-width: 800px;
+          margin: 20px auto;
+          padding: 20px;
+          background-color: #fff;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          overflow: hidden; /* Hide overflow content for sliding effect */
+      }
+
+      .review {
+          border-radius: 8px;
+          margin-bottom: 20px;
+          padding: 20px;
+          animation: slideUp 0.5s ease-in-out forwards; /* Apply slide animation */
+      }
+
+      @keyframes slideUp {
+          from {
+              opacity: 0;
+              transform: translateY(20px); /* Start from 20px below */
+          }
+          to {
+              opacity: 1;
+              transform: translateY(0); /* Slide up to original position */
+          }
+      }
+
+      .review header {
+          margin-bottom: 10px;
+      }
+
+      .review blockquote {
+          font-style: italic;
+      }
+
+      .review footer {
+          font-size: 14px;
+      }
+
+
+      h1 {
+          text-align: center;
+          font-size: 36px;
+          font-family: Arial, sans-serif;
+          color: #000000; /* Blue color */
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 20px;
+          text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Text shadow */
+      }
+
+  </style>
+  </head>
+  <body>
+    <div>
+      <nav class="nav1">
+        <ul id="navbar">
+          <img id="logo" src="finallogo1.png" />
+          <li class="nav" id="signin" style="float: right">
+            <a href="./Login/login.html"> Log In </a>
+          </li>
+          <li class="nav" id="signout" style="float: right" onclick="logout();">
+            <a href="signup2.html">Logout</a>
+            </li>  
+          <li class="nav" style="float: right">
+            <a href="review.html"> Reviews </a>
+          </li>   
+          <li class="nav" style="float: right">
+            <a href="eventspage.html"> Events</a>
+          </li>
+          <li class="nav" style="float: right">
+            <a href="./VolunteerPage/volunteer.html">Programs</a>
+          </li>       
+            <li class="nav" style="float: right">
+              <a href="index.html"> Testing </a>
+            </li>
+          <li class="nav" style="float: right">
+            <a href="mission.html"> About Us </a>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+    <div id="heading">
+      <nav class="navbar">
+        <center><h3 id="heading">Enabling Unique Minds</h3></center>
+      </nav>
+      </div>
+      <br>
+  <section>
+    <h1>Community Feedback</h1>
+
+
+  <article class="review" style="border: 5px solid #266CB4;"> <!-- Blue border -->
+      <header>
+          <h3>John Black</h3>
+          <p>Date: January 1, 2024</p>
+      </header>
+    
+      <blockquote>
+          "Life-Changing Support! Enabling Unique Minds has been a game-changer for my child. The personalized tutoring and mentorship programs have transformed their learning experience. Grateful for the support and community events."
+      </blockquote>
+      <footer>
+          <p>Rating: 5/5 stars</p>
+      </footer>
+  </article>
+
+  <article class="review" style="border: 5px solid #5BB367;"> <!-- Green border -->
+      <header>
+          <h3>Noelle Smith</h3>
+          <p>Date: January 15, 2024</p>
+      </header>
+      <blockquote>
+          "A Beacon of Empowerment. Enabling Unique Minds truly lives up to its name. The support they provide for individuals with learning disabilities is unparalleled. The dedication to inclusivity and innovation sets them apart. Highly recommended!"
+
+      </blockquote>
+      <footer>
+          <p>Rating: 4/5 stars</p>
+      </footer>
+  </article>
+
+
+  <article class="review" style="border: 5px solid #E34194;">
+      <header>
+          <h3>Emily Johnson</h3>
+          <p>Date: January 12, 2024</p>
+      </header>
+      <blockquote>
+          "Empathy in Action.The team at EUM goes beyond conventional tutoring. Their commitment to creating a supportive community is evident in every aspect of their work. Thank you for fostering an environment where uniqueness is celebrated!""
+
+      </blockquote>
+      <footer>
+          <p>Rating: 5/5 stars</p>
+      </footer>
+  </article>
+
+
+  <article class="review" style="border: 5px solid #F27324;"> 
+      <header>
+          <h3> Michael Brown</h3>
+          <p>Date: January 13, 2024</p>
+      </header>
+      <blockquote>
+        "Exceptional Educational Partner"
+         As a parent, finding EUM was a blessing. The testing resources and personalized strategies have made a significant difference in my child's academic journey. Grateful for the holistic approach and understanding staff.
+
+      </blockquote>
+      <footer>
+          <p>Rating: 4/5 stars</p>
+      </footer>
+  </article>
+
+  <article class="review" style="border: 5px solid #266CB4;"> 
+      <header>
+          <h3>Olivia Williams </h3>
+          <p>Date: January 14, 2024</p>
+      </header>
+      <blockquote>
+        "Innovative Approach to Learning Differences"
+         Enabling Unique Minds stands out for its innovative approach. The combination of tutoring, mentorship, and community events creates a holistic support system. A commendable organization dedicated to unlocking every individual's potential.
+
+      </blockquote>
+      <footer>
+          <p>Rating: 4/5 stars</p>
+      </footer>
+  </article>
+
+
+  <article class="review" style="border: 5px solid #5BB367;">
+      <header>
+          <h3>Jaxson Wilson</h3>
+          <p>Date: February 15, 2024</p>
+      </header>
+      <blockquote>
+         "Community That Cares"
+          Being part of the EUM community has been an enriching experience. The community events not only provide valuable insights but also foster a sense of belonging. Proud to be associated with such a caring organization.
+
+      </blockquote>
+      <footer>
+          <p>Rating: 4/5 stars</p>
+      </footer>
+  </article>
+
+  <article class="review" style="border: 5px solid #E34194;"> 
+      <header>
+          <h3>Bailey Howard</h3>
+          <p>Date: February 15, 2024</p>
+      </header>
+      <blockquote>
+         "Transformative Impact"
+          EUM goes beyond just providing services; they create a transformative impact. The dedication to the well-being of their clients is palpable. A heartfelt thank you for making a positive difference in the lives of those with learning disabilities.
+
+      </blockquote>
+      <footer>
+          <p>Rating: 4/5 stars</p>
+      </footer>
+  </article>
+
+
+  <article class="review" style="border: 5px solid #F27324;"> 
+      <header>
+          <h3>Aaron D. Matthews Jr</h3>
+          <p>Date: February 15, 2024</p>
+      </header>
+      <blockquote>
+          "Personalized and Effective"
+          The personalized tutoring sessions at EUM have been incredibly effective. The educators understand the unique needs of each learner, creating a tailored approach that boosts confidence and success. Highly recommended for anyone seeking individualized support.
+
+      </blockquote>
+      <footer>
+          <p>Rating: 4/5 stars</p>
+      </footer>
+  </article>
+
+  <article class="review" style="border: 5px solid #266CB4;"> 
+    <header>
+          <h3>Will Banks</h3>
+          <p>Date: February 15, 2024</p>
+      </header>
+      <blockquote>
+         "Navigating Learning Differences Made Easier"
+          Enabling Unique Minds has been instrumental in making the journey of learning differences more manageable. From testing resources to mentoring programs, their comprehensive approach is a beacon of hope for those seeking support.
+
+      </blockquote>
+      <footer>
+          <p>Rating: 4/5 stars</p>
+      </footer>
+  </article>
+
+
+  <article class="review" style="border: 5px solid #5BB367;">
+      <header>
+          <h3>Laura M. Founder</h3>
+          <p>Date: February 15, 2024</p>
+      </header>
+      <blockquote>
+          "Positive Atmosphere for Growth"
+          EUM's commitment to inclusivity and innovation creates a positive atmosphere for growth. The organization not only supports academic success but also nurtures personal development. Grateful for their dedication to unlocking potential.
+
+      </blockquote>
+      <footer>
+          <p>Rating: 4/5 stars</p>
+      </footer>
+  </article>
+    
+    </body>
+  </html>
+
+
+
+
+
